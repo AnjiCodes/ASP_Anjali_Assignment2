@@ -10,11 +10,17 @@ namespace ASP_Anjali_Assignment2.Controllers
     public class J2Controller : ApiController
     {
         /// <summary>
-        /// 
+        /// This method will take 2 numbers denoting 2 dice and then will determine the output as how many ways can the sum = 10 is possible.
         /// </summary>
+
         /// <param name="m"></param>
         /// <param name="n"></param>
-        /// <returns></returns>
+
+        /// <example>/api/J2/DiceGame/{m}/{n}</example>
+
+        /// <returns>it'll return the counter variable</returns>
+
+
         // GET: /api/J2/DiceGame/{m}/{n}
         [HttpGet]
         [Route("api/J2/DiceGame/{m}/{n}")]

@@ -10,13 +10,19 @@ namespace ASP_Anjali_Assignment2.Controllers
     public class J1Controller : ApiController
     {
         /// <summary>
-        /// 
+        /// The method here is that it'll count the number of calories as per the user's selection of their choice of food
         /// </summary>
+
         /// <param name="burger"></param>
         /// <param name="drink"></param>
         /// <param name="side"></param>
         /// <param name="dessert"></param>
-        /// <returns></returns>
+
+        /// <example>/api/J1/Menu/{burger}/{drink}/{side}/{dessert}</example>
+
+        /// <returns>It'll return the total calorie count</returns>
+
+
         //GET: /api/J1/Menu/{burger}/{drink}/{side}/{dessert}
         [HttpGet]
         [Route("api/J1/Menu/{burger}/{drink}/{side}/{dessert}")]
